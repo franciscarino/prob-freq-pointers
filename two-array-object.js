@@ -8,7 +8,7 @@ function twoArrayObject(keyArr, valueArr) {
   //set key Arr at index 0 with the value of valueArr at index 0
   for (let i = 0; i < keyArr.length; i++) {
     if (valueArr[i] === undefined) {
-      valueArr[i] = null;
+      valueArr[i] = null; //can use ternary operator
     }
     keyValueObj[keyArr[i]] = valueArr[i];
 
@@ -18,7 +18,6 @@ function twoArrayObject(keyArr, valueArr) {
   //return new var
 
   return keyValueObj;
-
 }
 
 

@@ -6,7 +6,7 @@
 function canConstructWord(word, letters) {
   // if letters is less than words, return false
   if (letters.length < word.length) return false;
-  if (word.length === 0) return true;
+  // if (word.length === 0) return true;
 
   // use freq counter helper function
   // create variables for help func objects
