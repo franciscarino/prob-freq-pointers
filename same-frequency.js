@@ -6,6 +6,7 @@
 // compare objects using for loop
 // return boolean
 
+/**takes in two numbers and checks if num1 and num2 have the same digits and returns a boolean result*/
 function sameFrequency(num1, num2) {
   const num1Str = String(num1);
   const num2Str = String(num2);
@@ -21,6 +22,7 @@ function sameFrequency(num1, num2) {
   }
 }
 
+/** Counts numbers in string, returns object of string key value pairs */
 function countNumbers(items) {
   const freqs = {};
 
